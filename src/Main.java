@@ -28,6 +28,7 @@ public class Main {
                     Saiyajin saiyajin = new Saiyajin();
                     System.out.println("------//------");
                     saiyajin.goku();
+                    saiyajin.ataquebase();
                     System.out.println("------//------");
                 }
 
@@ -45,6 +46,7 @@ public class Main {
                     Humano humano = new Humano();
                     System.out.println("------//------");
                     humano.kuririn();
+                    humano.ataquebase();
                     System.out.println("------//-------");
                 }
 

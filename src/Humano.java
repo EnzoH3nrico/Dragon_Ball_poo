@@ -13,4 +13,9 @@ public class Humano extends DragonBall{
         System.out.println(getRaca());
 
     }
+
+    @Override
+    public void ataquebase(){
+        System.out.println("Sei atirar uma bola de KI imperceptível, um tipo de ataque surpresa");
+    }
 }

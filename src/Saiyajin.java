@@ -12,4 +12,10 @@ public class Saiyajin extends DragonBall{
         }
         System.out.println(getRaca());
     }
+
+        @Override
+        public void ataquebase(){
+            System.out.println("Sei atirar uma bola de KI, que faz eu me transformar");
+        }
+
 }

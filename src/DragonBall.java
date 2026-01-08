@@ -1,8 +1,10 @@
-public class DragonBall{
+public abstract class DragonBall{
     private String nome;
     private int idade;
     private boolean vivo;
     private String raca;
+
+    public abstract void ataquebase();
 
     public void setNome(String nome){
         this.nome = nome;
